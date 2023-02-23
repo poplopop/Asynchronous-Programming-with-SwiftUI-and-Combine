@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350E7EB429A660670008E3F2 /* BookRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350E7EB329A660670008E3F2 /* BookRowView.swift */; };
 		88D0E2F328CE85DE003E175B /* BookShelfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D0E2F228CE85DE003E175B /* BookShelfApp.swift */; };
 		88D0E2F728CE85DF003E175B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D0E2F628CE85DF003E175B /* Assets.xcassets */; };
 		88D0E2FA28CE85DF003E175B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D0E2F928CE85DF003E175B /* Preview Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		350E7EB329A660670008E3F2 /* BookRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRowView.swift; sourceTree = "<group>"; };
 		88D0E2EF28CE85DE003E175B /* BookShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D0E2F228CE85DE003E175B /* BookShelfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookShelfApp.swift; sourceTree = "<group>"; };
 		88D0E2F628CE85DF003E175B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				88D0E30028CE862A003E175B /* Model */,
 				88D0E2F228CE85DE003E175B /* BookShelfApp.swift */,
+				350E7EB329A660670008E3F2 /* BookRowView.swift */,
 				88D0E30628CE88ED003E175B /* ContentView.swift */,
 				88D0E2F628CE85DF003E175B /* Assets.xcassets */,
 				88D0E2F828CE85DF003E175B /* Preview Content */,
@@ -150,6 +153,7 @@
 			files = (
 				88D0E2F328CE85DE003E175B /* BookShelfApp.swift in Sources */,
 				88D0E30228CE863A003E175B /* Book.swift in Sources */,
+				350E7EB429A660670008E3F2 /* BookRowView.swift in Sources */,
 				88D0E30728CE88ED003E175B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

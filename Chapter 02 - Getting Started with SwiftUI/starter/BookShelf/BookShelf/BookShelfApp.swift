@@ -22,7 +22,7 @@ import SwiftUI
 struct BookShelfApp: App {
   var body: some Scene {
     WindowGroup {
-      ContentView()
+      ContentView(books: Book.sampleBooks)
     }
   }
 }

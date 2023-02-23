@@ -19,13 +19,19 @@
 import SwiftUI
 
 struct ContentView: View {
+  var books: [Book]
   var body: some View {
-    Text("Hello, World!")
+    List(books) { book in
+      BookRowView(book: book)
+    }
+    .listStyle(.plain)
   }
 }
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView()
+    ContentView(books: Book.sampleBooks)
   }
 }
+
+
